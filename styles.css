@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-rows: 30vh 210vh 50vh;
+    gap: 20px;
+}
+
+.minicontainer{
+    display: grid;
+    margin: 10px 200px;
+    gap: 20px;
+}
+
+.header{
+    background-image: url(/img/Mis\ viajes\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header header{
+    display: flex;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.colTravel{
+    display: flex;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+}
+
+.red{
+    width: 30px;
+    margin: 2px;
+}
+
+.lupa{
+    width: 30px;
+    right: 30px;
+}
+
+.menú{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 30px;
+    left: 30px;
+}
+
+h1{
+    margin: 0;
+}
+
+.caja1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+    gap: 10px;
+}
+
+.magdalena{
+    display: flex;
+    align-items: end;
+    background-image: url(/img/santamarta.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.santander{
+    display: flex;
+    align-items: end;
+    background-image: url(/img/Santander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.antioquia{
+    display: flex;
+    align-items: end;
+    background-image: url(/img/antioquia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.amazonas{
+    display: flex;
+    align-items: end;
+    background-image: url(/img/Amazonas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.arauca{
+    display: flex;
+    align-items: end;
+    background-image: url(/img/arauca2.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+
+.caja2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 10px;
+    height: 50%;
+}
+
+.MS{
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.AAA{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    gap: 10px;
+}
+
+.antAm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+h3{
+    display: flex;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin: 0;
+    justify-content:left;
+    width: 100%;
+}
+
+.photo{
+    width: 200px;
+}
+
+.subcaja{
+    overflow: scroll;
+    height: 60vh;
+}
+
+hr{
+    color: #79FF39;
+}
+
+.ama{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.stama{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.bogota{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.llanos{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.bucaramanga{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+h4{
+    margin: 0;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    color: #526DFF;
+}
+
+p{
+    font-size: small;
+    margin: 0 0 5px 0;
+}
+
+footer{
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #526DFF;
+}
+
+.sobremi{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 40px;
+    overflow: scroll;
+}
+
+h6{
+    margin: 5px;
+    text-align: center;
+    color: #526DFF;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+}
+
+.photo1{
+    width: 100%;
+}
+
+.anuncio{
+    width: 100%;
+}
+
+.arriba{
+    margin: 100px 0px 5px 0px;
+}
+
+.abajo{
+    margin: 2px 0;
+}
+
+h5{
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+}
+
+.comentarios{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.com1{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.com2{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.com3{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.ft{
+    width: 100%;
+}
+
+
+
+.anunciobajo{
+    width: 50px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: black;
+    color: white;
+    justify-content: end;
+}
+
+td{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+
+button{
+    border: 1px solid gray;
+    border-radius: 1px 5px 5px 1px;
+    background-color: gray;
+    color: white;
+}
+
+.title{
+    color: white;
+}
+
+.inscribir{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
